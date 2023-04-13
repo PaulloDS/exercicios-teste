@@ -1,0 +1,28 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.img-criar-conta{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 50vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.criar-conta-image{
+    width: 30vw;
+}
