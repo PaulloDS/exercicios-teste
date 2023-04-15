@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    width: 99%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(22, 14, 31), rgb(43, 42, 42));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgb(5, 5, 5);
+}
+
+input{
+    color: rgb(60, 52, 71);
+    font-family: 'Benas Neue', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 2px;
+    padding: 25px;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(66, 64, 64);
+}
+
+.text-maincolor{
+    height: 28px;
+    width: 247.5px;
+    background-color: rgba(255, 255, 255, 0.63);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: auto;
+}
+
+.text-maincolor1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #18d24f;
+    border: none;
+    box-shadow: 8px 8px 20px rgb(29, 19, 34);
+}
+
+.text-maincolor1:hover{
+    text-shadow: 0px 0px 10px #18d24f;
+    cursor: pointer;
+}
+
+#ponto{
+    width: 69px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    padding: 91px 0px;
+    width: 200px;
+}
