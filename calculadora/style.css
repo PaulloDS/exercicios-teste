@@ -69,12 +69,14 @@ input{
     width: 69px;
 }
 
-figure{
+aside{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
-img{
-    padding: 91px 0px;
-    width: 200px;
+figure{
+    margin-top: 66px;
+    margin-bottom: 70px;
+    width: 240px;
 }
