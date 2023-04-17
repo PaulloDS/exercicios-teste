@@ -6,7 +6,7 @@ const tempo = document.getElementById("tempo1");
 
 const relogio = setInterval(function time() {
     let dateToday = new Date();
-    let hr = dateToday.getHours();
+    let hr =  dateToday.getHours();
     let min = dateToday.getMinutes();
     let sec = dateToday.getSeconds();
 
