@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(to bottom, blue, lightgreen);
+    background-image: linear-gradient(to bottom, rgb(38, 188, 199), rgb(0, 247, 0));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -15,7 +15,7 @@ const relogio = setInterval(function time() {
     } else {
         tempo.innerHTML = "Horas"
     }
-    
+
     if (hr < 10) {
         hr = "0" + hr;
     }
@@ -30,8 +30,12 @@ const relogio = setInterval(function time() {
 
     if (hr >= 12 && hr < 18) {
         document.body.style.backgroundImage = "linear-gradient(to bottom, #f8b334, #eb3f57)";
-    } else if (hr >= 18 && hr <= 24) {
+    } else {
         document.body.style.backgroundImage = "linear-gradient(to bottom, #01031a, #243e7b)";
+    }
+
+    if (hr >= 1 && hr < 12) {
+        document.body.style.backgroundImage = "linear-gradient(to bottom, blue, lightgreen)";
     }
 
     horas.textContent = hr
