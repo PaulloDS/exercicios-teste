@@ -2,8 +2,7 @@ const horas = document.getElementById("horas");
 const minutos = document.getElementById("minutos");
 const segundos = document.getElementById("segundos");
 const tempo = document.getElementById("tempo1");
-let body = document.body;
-let imagem;
+
 
 const relogio = setInterval(function time() {
     let dateToday = new Date();
@@ -29,11 +28,11 @@ const relogio = setInterval(function time() {
         sec = "0" + sec;
     }
 
-    if (hr >=2 && hr < 12) {
-        imagem = "linear-gradient(120deg, #2e9690d8, #54be39da)";
+    if (hr >= 12 && hr < 18) {
+        document.body.style.backgroundImage = "linear-gradient(to bottom, #f8b334, #eb3f57)";
+    } else if (hr >= 18 && hr <= 24) {
+        document.body.style.backgroundImage = "linear-gradient(to bottom, #01031a, #243e7b)";
     }
-
-    body.style.backgroundImage = "linear-gradient(120deg, #2e9690d8, #54be39da)" + imagem + "linear-gradient(120deg, #2e9690d8, #54be39da)";
 
     horas.textContent = hr
     minutos.textContent = min
